@@ -1,0 +1,38 @@
+.game-board
+{
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+  background-color: rgb(248, 215, 152);
+  color: #fff;
+  border: 6px solid coral;
+  border-radius: 10px;
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box
+{
+  border: 6px solid coral;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notAvailable{
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.available{
+  cursor: pointer;
+}
+
+.mark{
+  pointer-events: none;
+  background-color: rgb(255, 235, 197);
+}

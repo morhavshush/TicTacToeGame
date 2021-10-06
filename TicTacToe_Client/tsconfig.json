@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    // "skipTemplateCodegen": true,
+    // "strictMetadataEmit": true,
+    // "enableResourceInlining": true,
+    // "fullTemplateTypeCheck": true, 
+    // "enableIvy": true
+    "enableI18nLegacyMessageIdFormat": false
+  }
+}

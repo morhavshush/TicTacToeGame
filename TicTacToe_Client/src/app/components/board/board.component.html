@@ -1,0 +1,4 @@
+<span>{{message}}</span>
+<div [ngClass]="userName==this.game.userNameTurn?'available':'notAvailable'" class="game-board" >
+  <div *ngFor="let field of game.fields;index as i;" (click)="clickPosition(i)" class="box" [ngClass]="field=='-'?'':'mark'">{{field}}</div>
+</div>
